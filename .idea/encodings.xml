@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/myshop-api-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-commons-domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-commons-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-commons-dubbo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-commons-dubbo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-commons-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-commons-mapper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-databases" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-databases/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-dependencies" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-content-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-content-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-content-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-content-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-content-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-content-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-redis-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-redis-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-redis-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-redis-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-search-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-search-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-search-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-search-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-search-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-search-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-upload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-upload/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-user-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-user-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-user-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-user-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-user-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-service-user-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-static-backend" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-static-backend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-web-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myshop-web-admin/src/main/java" charset="UTF-8" />
+  </component>
+</project>

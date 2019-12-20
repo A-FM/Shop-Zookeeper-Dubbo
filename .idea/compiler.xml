@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="myshop-service-upload" />
+        <module name="myshop-static-backend" />
+        <module name="myshop-web-admin" />
+        <module name="myshop-service-user-provider" />
+        <module name="myshop-service-content-consumer" />
+        <module name="myshop-service-user-consumer" />
+        <module name="myshop-service-search-api" />
+        <module name="myshop-service-user-api" />
+        <module name="myshop-api-gateway" />
+        <module name="myshop-commons-dubbo" />
+        <module name="myshop-service-content-api" />
+        <module name="myshop-service-redis-api" />
+        <module name="myshop-service-content-provider" />
+        <module name="myshop-databases" />
+        <module name="myshop-service-search-consumer" />
+        <module name="myshop-commons" />
+        <module name="myshop-commons-domain" />
+        <module name="myshop-service-redis-provider" />
+        <module name="myshop-service-search-provider" />
+        <module name="myshop-commons-mapper" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="myshop-api-gateway" target="1.8" />
+      <module name="myshop-commons" target="1.8" />
+      <module name="myshop-commons-domain" target="1.8" />
+      <module name="myshop-commons-dubbo" target="1.8" />
+      <module name="myshop-commons-mapper" target="1.8" />
+      <module name="myshop-databases" target="1.8" />
+      <module name="myshop-dependencies" target="1.8" />
+      <module name="myshop-service-content-api" target="1.8" />
+      <module name="myshop-service-content-consumer" target="1.8" />
+      <module name="myshop-service-content-provider" target="1.8" />
+      <module name="myshop-service-redis-api" target="1.8" />
+      <module name="myshop-service-redis-provider" target="1.8" />
+      <module name="myshop-service-search-api" target="1.8" />
+      <module name="myshop-service-search-consumer" target="1.8" />
+      <module name="myshop-service-search-provider" target="1.8" />
+      <module name="myshop-service-upload" target="1.8" />
+      <module name="myshop-service-user-api" target="1.8" />
+      <module name="myshop-service-user-consumer" target="1.8" />
+      <module name="myshop-service-user-provider" target="1.8" />
+      <module name="myshop-static-backend" target="1.8" />
+      <module name="myshop-web-admin" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="myshop-api-gateway" options="-parameters" />
+      <module name="myshop-commons" options="-parameters" />
+      <module name="myshop-commons-domain" options="-parameters" />
+      <module name="myshop-commons-dubbo" options="-parameters" />
+      <module name="myshop-commons-mapper" options="-parameters" />
+      <module name="myshop-databases" options="-parameters" />
+      <module name="myshop-service-content-api" options="-parameters" />
+      <module name="myshop-service-content-consumer" options="-parameters" />
+      <module name="myshop-service-content-provider" options="-parameters" />
+      <module name="myshop-service-redis-api" options="-parameters" />
+      <module name="myshop-service-redis-provider" options="-parameters" />
+      <module name="myshop-service-search-api" options="-parameters" />
+      <module name="myshop-service-search-consumer" options="-parameters" />
+      <module name="myshop-service-search-provider" options="-parameters" />
+      <module name="myshop-service-upload" options="-parameters" />
+      <module name="myshop-service-user-api" options="-parameters" />
+      <module name="myshop-service-user-consumer" options="-parameters" />
+      <module name="myshop-service-user-provider" options="-parameters" />
+      <module name="myshop-static-backend" options="-parameters" />
+      <module name="myshop-web-admin" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,95 @@
+# Spring boot application
+spring:
+  application:
+    name: myshop-service-content-provider
+  datasource:
+    druid:
+      url: jdbc:mysql://192.168.219.149:3306/myshop?useSSL=false&serverTimezone=UTC&characterEncoding=utf8
+      username: root
+      password: q.123456
+#     初始化时建立物理连接的个数。初始化发生在显示调用init方法，或者第一次getConnection时
+      initial-size: 1
+#     最小连接池数量
+      min-idle: 1
+#     最大连接池数量
+      max-active: 20
+#     申请连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能。
+      test-on-borrow: true
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1ms
+        min-idle: 0
+    sentinel:
+      master: mymaster
+      nodes: 192.168.219.151:26379, 192.168.219.151:26380, 192.168.219.151:26381
+
+server:
+  port: 8502
+
+# MyBatis Config properties
+mybatis:
+  type-aliases-package: pers.ycy.myshop.commons.domain
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    cache-enabled: true
+
+# Services Versions
+services:
+  versions:
+    redis:
+      v1: 1.0.0
+    content:
+      v1: 1.0.0
+
+# Dubbo Config properties
+dubbo:
+  ## Base packages to scan Dubbo Component：@com.alibaba.dubbo.config.annotation.Service
+  scan:
+    basePackages: pers.ycy.myshop.service.content.provider.api.impl
+  ## ApplicationConfig Bean
+  application:
+    id: myshop-service-content-provider
+    name: myshop-service-content-provider
+    qos-port: 22222
+    qos-enable: true
+  ## ProtocolConfig Bean
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: 20882
+    status: server
+#   dubbo  传输数据 要用到序列化. 这里的序列化使用kryo
+    serialization: kryo
+  ## RegistryConfig Bean
+  registry:
+    id: zookeeper
+    address: zookeeper://192.168.219.151:2181?backup=192.168.219.151:2182,192.168.219.151:2183
+
+# Enables Dubbo All Endpoints
+management:
+  endpoint:
+    dubbo:
+      enabled: true
+    dubbo-shutdown:
+      enabled: true
+    dubbo-configs:
+      enabled: true
+    dubbo-services:
+      enabled: true
+    dubbo-references:
+      enabled: true
+    dubbo-properties:
+      enabled: true
+  # Dubbo Health
+  health:
+    dubbo:
+      status:
+        ## StatusChecker Name defaults (default : "memory", "load" )
+        defaults: memory
+        ## StatusChecker Name extras (default : empty )
+        extras: load,threadpool

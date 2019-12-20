@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservice-my-shop.iml" filepath="$PROJECT_DIR$/.idea/microservice-my-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-api-gateway/myshop-api-gateway.iml" filepath="$PROJECT_DIR$/myshop-api-gateway/myshop-api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-commons/myshop-commons.iml" filepath="$PROJECT_DIR$/myshop-commons/myshop-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-commons-domain/myshop-commons-domain.iml" filepath="$PROJECT_DIR$/myshop-commons-domain/myshop-commons-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-commons-dubbo/myshop-commons-dubbo.iml" filepath="$PROJECT_DIR$/myshop-commons-dubbo/myshop-commons-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-commons-mapper/myshop-commons-mapper.iml" filepath="$PROJECT_DIR$/myshop-commons-mapper/myshop-commons-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-databases/myshop-databases.iml" filepath="$PROJECT_DIR$/myshop-databases/myshop-databases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-dependencies/myshop-dependencies.iml" filepath="$PROJECT_DIR$/myshop-dependencies/myshop-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-service-content-api/myshop-service-content-api.iml" filepath="$PROJECT_DIR$/myshop-service-content-api/myshop-service-content-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-service-content-consumer/myshop-service-content-consumer.iml" filepath="$PROJECT_DIR$/myshop-service-content-consumer/myshop-service-content-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-service-content-provider/myshop-service-content-provider.iml" filepath="$PROJECT_DIR$/myshop-service-content-provider/myshop-service-content-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-service-redis-api/myshop-service-redis-api.iml" filepath="$PROJECT_DIR$/myshop-service-redis-api/myshop-service-redis-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-service-redis-provider/myshop-service-redis-provider.iml" filepath="$PROJECT_DIR$/myshop-service-redis-provider/myshop-service-redis-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-service-search-api/myshop-service-search-api.iml" filepath="$PROJECT_DIR$/myshop-service-search-api/myshop-service-search-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-service-search-consumer/myshop-service-search-consumer.iml" filepath="$PROJECT_DIR$/myshop-service-search-consumer/myshop-service-search-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-service-search-provider/myshop-service-search-provider.iml" filepath="$PROJECT_DIR$/myshop-service-search-provider/myshop-service-search-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-service-upload/myshop-service-upload.iml" filepath="$PROJECT_DIR$/myshop-service-upload/myshop-service-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-service-user-api/myshop-service-user-api.iml" filepath="$PROJECT_DIR$/myshop-service-user-api/myshop-service-user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-service-user-consumer/myshop-service-user-consumer.iml" filepath="$PROJECT_DIR$/myshop-service-user-consumer/myshop-service-user-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-service-user-provider/myshop-service-user-provider.iml" filepath="$PROJECT_DIR$/myshop-service-user-provider/myshop-service-user-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-static-backend/myshop-static-backend.iml" filepath="$PROJECT_DIR$/myshop-static-backend/myshop-static-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-web-admin/myshop-web-admin.iml" filepath="$PROJECT_DIR$/myshop-web-admin/myshop-web-admin.iml" />
+    </modules>
+  </component>
+</project>
